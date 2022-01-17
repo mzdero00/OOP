@@ -41,7 +41,7 @@ namespace Seminarski_oop_4
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(668, 12);
+            this.startButton.Location = new System.Drawing.Point(1070, 12);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(120, 57);
             this.startButton.TabIndex = 0;
@@ -51,7 +51,7 @@ namespace Seminarski_oop_4
             // 
             // snapButton
             // 
-            this.snapButton.Location = new System.Drawing.Point(668, 75);
+            this.snapButton.Location = new System.Drawing.Point(1070, 75);
             this.snapButton.Name = "snapButton";
             this.snapButton.Size = new System.Drawing.Size(120, 63);
             this.snapButton.TabIndex = 0;
@@ -64,15 +64,16 @@ namespace Seminarski_oop_4
             this.picCanvas.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.picCanvas.Location = new System.Drawing.Point(12, 12);
             this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(628, 426);
+            this.picCanvas.Size = new System.Drawing.Size(1001, 614);
             this.picCanvas.TabIndex = 1;
             this.picCanvas.TabStop = false;
+            this.picCanvas.Click += new System.EventHandler(this.picCanvas_Click);
             this.picCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.UpadatePicutreBoxGraphics);
             // 
             // txtScore
             // 
             this.txtScore.AutoSize = true;
-            this.txtScore.Location = new System.Drawing.Point(688, 176);
+            this.txtScore.Location = new System.Drawing.Point(1090, 176);
             this.txtScore.Name = "txtScore";
             this.txtScore.Size = new System.Drawing.Size(65, 17);
             this.txtScore.TabIndex = 2;
@@ -81,7 +82,7 @@ namespace Seminarski_oop_4
             // txtHighScore
             // 
             this.txtHighScore.AutoSize = true;
-            this.txtHighScore.Location = new System.Drawing.Point(688, 212);
+            this.txtHighScore.Location = new System.Drawing.Point(1090, 212);
             this.txtHighScore.Name = "txtHighScore";
             this.txtHighScore.Size = new System.Drawing.Size(80, 17);
             this.txtHighScore.TabIndex = 2;
@@ -96,7 +97,7 @@ namespace Seminarski_oop_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1202, 683);
             this.Controls.Add(this.txtHighScore);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.picCanvas);

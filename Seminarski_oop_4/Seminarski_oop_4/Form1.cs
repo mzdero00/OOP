@@ -152,20 +152,20 @@ namespace Seminarski_oop_4
 
                     if(Snake[i].X<0)
                     {
-                        Snake[i].X = maxWidth;
+                        GameOver();
 
                     }
                     if(Snake[i].X>maxWidth)
                     {
-                        Snake[i].X = 0;
+                        GameOver();
                     }
                     if(Snake[i].Y <0)
                     {
-                        Snake[i].Y = maxHeight;
+                        GameOver();
                     }
                     if(Snake[i].Y>maxHeight)
                     {
-                        Snake[i].Y = 0;
+                        GameOver();
                     }
                     
                     if(Snake[i].X==food.X && Snake[i].Y == food.Y)
@@ -229,6 +229,10 @@ namespace Seminarski_oop_4
                     ));
         }
 
+        private void picCanvas_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void RestartGame()
         {
@@ -243,7 +247,7 @@ namespace Seminarski_oop_4
             score = 0;
             txtScore.Text = "Score: " + score;
 
-            Circle head = new Circle { X = 10, Y = 5 };
+            Circle head = new Circle { X = 30, Y = 15 };
             Snake.Add(head);
 
             for(int i=0;i<10;i++)
