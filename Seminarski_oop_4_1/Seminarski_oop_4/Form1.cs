@@ -77,7 +77,16 @@ namespace Seminarski_oop_4
 
         private void StartGame(object sender, EventArgs e)
         {
-            RestartGame();
+            DialogResult res = MessageBox.Show("Zelite li igrati igru? ", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (res == DialogResult.OK)
+            {
+                RestartGame();
+            }
+            if (res == DialogResult.Cancel)
+            {
+                System.Windows.Forms.Application.Exit();
+            }
+            
         }
 
         private void TakeSnapShot(object sender, EventArgs e)

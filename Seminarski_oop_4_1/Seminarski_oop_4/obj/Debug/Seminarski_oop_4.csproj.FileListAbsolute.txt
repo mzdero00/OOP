@@ -19,3 +19,14 @@ C:\Users\Marin\Desktop\OOP-main\Seminarski_oop_4\Seminarski_oop_4\obj\Debug\Semi
 C:\Users\Marin\Desktop\OOP-main\Seminarski_oop_4\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.csproj.CoreCompileInputs.cache
 C:\Users\Marin\Desktop\OOP-main\Seminarski_oop_4\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.exe
 C:\Users\Marin\Desktop\OOP-main\Seminarski_oop_4\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.pdb
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\bin\Debug\Seminarski_oop_4.exe.config
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\bin\Debug\Seminarski_oop_4.exe
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\bin\Debug\Seminarski_oop_4.pdb
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.csproj.AssemblyReference.cache
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.Form1.resources
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.Properties.Resources.resources
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.csproj.GenerateResource.cache
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.csproj.CoreCompileInputs.cache
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.exe
+C:\Users\Marin\Desktop\Seminarski_oop_4_1\Seminarski_oop_4\obj\Debug\Seminarski_oop_4.pdb

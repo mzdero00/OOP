@@ -47,7 +47,7 @@ namespace Seminarski_oop_4
             this.startButton.BackColor = System.Drawing.Color.LightGreen;
             this.startButton.Font = new System.Drawing.Font("Poor Richard", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startButton.Location = new System.Drawing.Point(31, 11);
-            this.startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.startButton.Margin = new System.Windows.Forms.Padding(2);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(90, 46);
             this.startButton.TabIndex = 0;
@@ -59,7 +59,7 @@ namespace Seminarski_oop_4
             // 
             this.snapButton.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.snapButton.Location = new System.Drawing.Point(31, 62);
-            this.snapButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.snapButton.Margin = new System.Windows.Forms.Padding(2);
             this.snapButton.Name = "snapButton";
             this.snapButton.Size = new System.Drawing.Size(90, 51);
             this.snapButton.TabIndex = 0;
@@ -72,7 +72,7 @@ namespace Seminarski_oop_4
             this.picCanvas.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.picCanvas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCanvas.BackgroundImage")));
             this.picCanvas.Location = new System.Drawing.Point(151, 1);
-            this.picCanvas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picCanvas.Margin = new System.Windows.Forms.Padding(2);
             this.picCanvas.Name = "picCanvas";
             this.picCanvas.Size = new System.Drawing.Size(751, 499);
             this.picCanvas.TabIndex = 1;
@@ -120,13 +120,13 @@ namespace Seminarski_oop_4
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(904, 501);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtHighScore);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.picCanvas);
             this.Controls.Add(this.snapButton);
             this.Controls.Add(this.startButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Snake";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
